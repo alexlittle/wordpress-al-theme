@@ -39,7 +39,8 @@ h1, h1 a, h2, h2 a, h3, h4, h5, h6 {
 
 h1 {font-size:2.6em;}
 h2 {font-size:2em;
-    margin-bottom: 10px;}
+    margin-bottom: 10px;
+    line-height:1.5}
 h3 {font-size:1.6em;}
 h4 {font-size:1.2em;}
 h5 {font-size:1em;}
@@ -591,4 +592,13 @@ bottom: 1.2em;
 
 #tag-cloud a:hover {
 	text-decoration:underline;
+}
+
+/* comments */
+.number_comments {
+	background: none repeat scroll 0 0 #2277AA;
+	color: #fff;
+	padding:5px;
+	font-weight: bold;
+	
 }

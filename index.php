@@ -8,8 +8,12 @@
 				
 			<div class="post" id="post-<?php the_ID(); ?>">
 				<h2 class="posttitle"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
-				<div class="postmetadata"><?php the_time(get_option('date_format').', '.get_option('time_format')) ?> <?php _e('by') ?> <?php the_author() ?> 
-				| <?php comments_popup_link(__('Comment'), __('1 Comment'), __('% Comments')); ?>
+				<div class="postmetadata">
+				<?php comments_popup_link(__('0'), __('1'), __('%'),'number_comments'); ?>
+				<?php comments_popup_link(__('Comment'), __('Comment'), __('Comments')); ?>
+				|
+				<?php the_time(get_option('date_format').', '.get_option('time_format')) ?> <?php _e('by') ?> <?php the_author() ?> 
+				
 				<?php if(function_exists('the_views')) { '| '.the_views(); }  ?> 
 				</div>
 				<div class="postentry">
