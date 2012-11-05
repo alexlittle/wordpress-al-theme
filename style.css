@@ -600,5 +600,7 @@ bottom: 1.2em;
 	color: #fff;
 	padding:5px;
 	font-weight: bold;
-	
+	-moz-border-radius: 0.3em;
+  	border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
 }
