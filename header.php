@@ -73,7 +73,7 @@
 <ul id="nav">
 	<li><a href="<?php echo get_settings('home'); ?>"><?php _e('Blog') ?></a></li>
 	<?php wp_list_pages('title_li=&depth=2&sort_column=menu_order') ?>
-	<li><a href="http://moodle.alexlittle.net" title="Visit my Moodle site"><?php _e('Moodle') ?></a></li>
+	<li><a href="http://moodle.digital-campus.org" title="Visit my Moodle site"><?php _e('Moodle') ?></a></li>
 	<li><a href="http://www.flickr.com/photos/alex-little" title="My photos on Flickr"><?php _e('Flickr Photos') ?></a></li>
 </ul>
 </div>
