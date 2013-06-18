@@ -11,11 +11,7 @@
 	if ( is_single() ) { 
 		echo " &raquo; Blog Archive";
 	} 
-	if (trim(wp_title('',false)) == 'Page not found'){
-		echo " &raquo; Photos"; 
-	} else {
-		wp_title();
-	}
+	wp_title();
 ?>
 </title>
 
